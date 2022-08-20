@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [GOOD MEETINGS WEB APP SANITY Test]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="GOOD MEETINGS WEB APP SANITY Test Cases(failed)">
+    <classes>
+      <class name="ai.gm.qa.testcases.GMLoginPageTest">
+        <methods>
+          <include name="Setup"/>
+          <include name="tearDown"/>
+          <include name="goodmeetingslogoTest"/>
+          <include name="LoginPageTitleTest"/>
+          <include name="validatedifferentcomapnycredential"/>
+          <include name="Test_retry"/>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- ai.gm.qa.testcases.GMLoginPageTest -->
+    </classes>
+  </test> <!-- GOOD MEETINGS WEB APP SANITY Test Cases(failed) -->
+</suite> <!-- Failed suite [GOOD MEETINGS WEB APP SANITY Test] -->

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="GOOD MEETINGS WEB APP REGRESSION Test">
+	<test name="GOOD MEETINGS WEB APP REGRESSION Test Cases">
+		<classes>
+			<class name="ai.gm.qa.testcases.GMLoginPageTest"></class>
+			<class name="ai.gm.qa.testcases.GMCreateMeetingPageTest"></class>
+		</classes>
+	</test>
+</suite>
+

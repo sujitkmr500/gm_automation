@@ -1,0 +1,31 @@
+package appiumtests;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
+
+import io.appium.java_client.AppiumDriver;
+import io.appium.java_client.android.AndroidDriver;
+
+public class calculator_test {
+	WebDriver driver;
+	AppiumDriver driver;
+	AndroidDriver driver;
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	public static void open_calculator()
+	{
+		DesiredCapabilities dcap = new DesiredCapabilities();
+		dcap.setCapability("deviceName", "realme 81");//device name : you will get it at About phone >> device name
+		dcap.setCapability("udid", "SCTKWGMNEIZ9XGZX ");//device id : adb devices
+		dcap.setCapability("platformName", "Android");//Mobile OS
+		dcap.setCapability("platformVersion", "11");//Android Version
+		dcap.setCapability("addpackage", "com.colors.calculator");
+		dcap.setCapability("appActivity", "com.colors.calculator.calculator");
+		dcap.setCapability("", "");
+		dcap.setCapability("", "");
+		dcap.setCapability("", "");
+	}
+}

@@ -1,0 +1,61 @@
+Java collection interview questions
+
+General questions
+
+1) What is the Java Collections API? List down its advantages?
+2) Explain Collections hierarchy?
+3) Why Collection interface does not extend Cloneable and Serializable interface?
+4) Why Map interface does not extend Collection interface?
+
+List interface related
+
+5) Why we use List interface? What are main classes implementing List interface?
+6) How to convert an array of String to ArrayList?
+7) How to reverse the list?
+
+Set interface related
+
+8) Why we use Set interface? What are main classes implementing Set interface?
+9) How HashSet store elements?
+10) Can a null element added to a TreeSet or HashSet?
+
+Map interface related
+
+11) Why we use Map interface? What are main classes implementing Map interface?
+12) What are IdentityHashMap and WeakHashMap?
+13) Explain ConcurrentHashMap? How it works?
+14) How hashmap works?
+15) How to design a good key for hashmap?
+16) What are different Collection views provided by Map interface?
+17) When to use HashMap or TreeMap?
+
+Tell the difference questions
+
+18) Difference between Set and List?
+19) Difference between List and Map?
+20) Difference between HashMap and HashTable?
+21) Difference between Vector and ArrayList?
+22) Difference between Iterator and Enumeration?
+23) Difference between HashMap and HashSet?
+24) Difference between Iterator and ListIterator?
+25) Difference between TreeSet and SortedSet?
+26) Difference between ArrayList and LinkedList?
+
+More questions
+
+27) How to make a collection read only?
+28) How to make a collection thread safe?
+29) Why there is not method like Iterator.add() to add elements to the collection?
+30) What are different ways to iterate over a list?
+31) What do you understand by iterator fail-fast property?
+32) What is difference between fail-fast and fail-safe?
+33) How to avoid ConcurrentModificationException while iterating a collection?
+34) What is UnsupportedOperationException?
+35) Which collection classes provide random access of it’s elements?
+36) What is BlockingQueue?
+37) What is Queue and Stack, list their differences?
+38) What is Comparable and Comparator interface?
+39) What are Collections and Arrays class?
+40) Recommended resources
+
+https://howtodoinjava.com/interview-questions/useful-java-collection-interview-questions/#resources
